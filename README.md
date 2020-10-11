@@ -6,6 +6,7 @@
 # Rust知识点
 ## Rust基础
 [Rust数据类型](Rust基础/Rust数据类型.md)
+
 [Rust函数与控制流](Rust基础/Rust函数与控制流.md)
 
 ## Rust进阶
