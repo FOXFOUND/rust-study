@@ -27,7 +27,19 @@ fn another_function(x: i32, y: i32) -> (i32, i32){
     (x ,y) // 返回一个tuple
 }
 ```
-与`C++ NameSpace`代码块功能相类似，我们可以在函数段内部增加`{}`来对某一变量的复制
+与`C++ NameSpace`代码块功能相类似，我们可以在函数段内部增加`{}`来对某一变量的赋值
+```rust
+fn main() {
+    let x = 5;
+
+    let y = {
+        let x = 3;
+        x + 1
+    };
+
+    println!("The value of y is: {}", y);
+}
+```
 与Python`闭包`相类似，我们同样可以在Rust的函数段内部增加`fn {}`代码段并实现对某一变量的函数类型赋值，相关案例如下：
 ```rust
 fn main() {
