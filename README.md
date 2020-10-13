@@ -9,7 +9,7 @@
 
 [Rust函数与控制流](Rust基础/Rust函数与控制流.md)
 
-[Rust所有权](Rust基础/Rust所有权.md)
+[Rust所有权](Rust基础/Rust所有权上.md)
 
 ## Rust进阶
 ## Rust实战
