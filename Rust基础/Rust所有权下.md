@@ -42,4 +42,4 @@ fn change(some_string: &mut String) {
     some_string.push_str(", world");
 }
 ```
-这样的话，我们就完成了对引用与借用的学习，
+到此，我们就完成了对引用与借用的学习。在下一小节中我们将对Rust的自定义结构体进行学习
