@@ -13,5 +13,7 @@
 
 [Rust所有权下](Rust基础/Rust所有权下.md)
 
+[Rust结构体与枚举](Rust基础/Rust结构体与枚举.md)
+
 ## Rust进阶
 ## Rust实战
